@@ -1,5 +1,5 @@
 ---
-title: "SMT Solving and Solver-Aided Systems"
+title: "Distributed Systems"
 layout: single
 ---
 

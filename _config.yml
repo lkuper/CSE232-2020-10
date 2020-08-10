@@ -9,7 +9,7 @@ paginate_path: /page:num/
 
 repository: "lkuper/CSE232-2020-10"
 
-baseurl: "/CSE290Q-2020-10"
+baseurl: "/CSE232-2020-10"
 
 plugins:
   - jekyll-feed
