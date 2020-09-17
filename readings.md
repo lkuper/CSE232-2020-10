@@ -4,8 +4,8 @@ layout: splash
 ---
 
 <style type="text/css">
-span.discussion { color: lemonchiffon }
-span.lecture { color: lightcyan }
+span.discussion { color: lemonchiffon; font-weight: bold }
+span.lecture { color: lightblue; font-weight: bold }
 </style>
 
 ## Schedule of readings
