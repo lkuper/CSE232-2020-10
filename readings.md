@@ -18,11 +18,11 @@ For days marked <span class="discussion">Discussion</span>, you must turn in you
 |------------------|------------------------------------------------|----------------------|-----------------------------------------------------|---------------------------------
 | Friday, 10/2     | [Course overview](course-overview.html)        | Lindsey              | (none)
 | Monday, 10/5     | <span class="lecture">Lecture</span>: distributed systems: what and why?; time and clocks; Lamport diagrams
-| Wednesday, 10/7  | <span class="discussion">Discussion</span>: A Note on Distributed Computing
+| Wednesday, 10/7  | <span class="discussion">Discussion</span>: Jim Waldo et al., [A Note on Distributed Computing (1994)](https://dl.acm.org/doi/book/10.5555/974938)
 | Friday, 10/9     | <span class="lecture">Lecture</span>: causality and happens-before; network models; state and events; partial orders; total orders; Lamport clocks
-| Monday, 10/12    | <span class="discussion">Discussion</span>: Time, Clocks, and the Ordering of Events in a Distributed System
+| Monday, 10/12    | <span class="discussion">Discussion</span>: Leslie Lamport, [Time, Clocks, and the Ordering of Events in a Distributed System (CACM 1978)](https://lamport.azurewebsites.net/pubs/time-clocks.pdf) (skip the section "Physical Clocks")
 | Wednesday, 10/14 | <span class="lecture">Lecture</span>: vector clocks; protocol runs and anomalies; delivery vs. receiving; FIFO delivery; causal delivery; totally-ordered delivery
-| Friday, 10/16    | <span class="discussion">Discussion</span>: Detecting Causal Relationships in Distributed Computations: In Search of the Holy Grail (sections 1-3 only)
+| Friday, 10/16    | <span class="discussion">Discussion</span>: [Detecting Causal Relationships in Distributed Computations: In Search of the Holy Grail](https://link.springer.com/article/10.1007%2FBF02277859) (sections 1-3 only)
 | Monday, 10/19    | <span class="lecture">Lecture</span>: implementing FIFO delivery; implementing causal broadcast
 | Wednesday, 10/21 | <span class="discussion">Discussion</span>: Lightweight Causal and Atomic Group Multicast (sections 1-5 only)
 | Friday, 10/23    | <span class="lecture">Lecture</span>: uses of causality in distributed systems; consistent snapshots; Chandy-Lamport snapshot algorithm
