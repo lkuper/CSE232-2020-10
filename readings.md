@@ -42,9 +42,9 @@ For days marked <span class="discussion">Discussion</span>, you must turn in you
 | Wednesday, 11/25 | <span class="discussion">Discussion</span>: Leslie Lamport, ["Paxos Made Simple" (2001)](readings/paxos-simple.pdf)
 | Friday, 11/27    | No class (Thanksgiving)
 | Monday, 11/30    | <span class="lecture">Lecture</span>: Paxos wrap-up: nontermination, Multi-Paxos, fault tolerance; other consensus protocols: Viewstamped Replication, Zab, Raft; passive vs. active (state machine) replication
-| Wednesday, 12/2  | <span class="discussion">Discussion</span>: Diego Ongaro and John Ousterhout, ["In Search of an Understandable Consensus Algorithm" (ATC 2014)](readings/raft-atc14.pdf)
+| Wednesday, 12/2  | <span class="discussion">Discussion</span>: Jialin Li et al., ["Just say NO to Paxos Overhead: Replacing Consensus with Network Ordering" (OSDI 2016)](readings/network-ordering.pdf)
 | Friday, 12/4     | <span class="lecture">Lecture</span>: eventual consistency; strong convergence and strong eventual consistency; intro to application-specific conflict resolution; network partitions; availability; the consistency/availability trade-off; anti-entropy with Merkle trees; gossip; quorum consistency
-	| Monday, 12/7     | <span class="discussion">Discussion</span>: Giuseppe DeCandia et al., ["Dynamo: Amazon’s Highly Available Key-value Store" (SOSP 2007)](readings/amazon-dynamo-sosp2007.pdf)
+	| Monday, 12/7     | <span class="discussion">Discussion</span>: Giuseppe DeCandia et al., ["Dynamo: Amazon’s Highly Available Key-value Store" (SOSP 2007)](readings/amazon-dynamo.pdf)
 | Wednesday, 12/9  | <span class="lecture">Lecture</span>: sharding; consistent hashing
 | Friday, 12/11    | <span class="discussion">Discussion</span>: Ion Stoica et al., ["Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications" (SIGCOMM 2001)](readings/chord.pdf)
 | Wednesday, 12/16 | Video presentations, noon-3pm Pacific time
