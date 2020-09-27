@@ -3,5 +3,5 @@ main:
     url: /index.html
   - title: "Course Overview"
     url: /course-overview.html
-  - title: "Readings"
-    url: /readings.html
+  - title: "Schedule"
+    url: /schedule.html
