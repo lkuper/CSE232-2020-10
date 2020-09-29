@@ -22,13 +22,13 @@ The course will alternate between <span class="discussion">Discussion</span> and
 | Friday, 10/9     | <span class="lecture">Lecture</span>: causality and happens-before; network models; state and events; partial orders; total orders; Lamport clocks
 | Monday, 10/12    | <span class="discussion">Discussion</span>: Leslie Lamport, ["Time, Clocks, and the Ordering of Events in a Distributed System" (CACM 1978)](readings/time-clocks.pdf) **(skip the section "Physical Clocks")**
 | Wednesday, 10/14 | <span class="lecture">Lecture</span>: vector clocks; protocol runs and anomalies; delivery vs. receiving; FIFO delivery; causal delivery; totally-ordered delivery
-	| Friday, 10/16    | <span class="discussion">Discussion</span>: ["Detecting Causal Relationships in Distributed Computations: In Search of the Holy Grail" (_Distributed Computing_, 1994)](readings/holy-grail.pdf) **(sections 1-3 only)**
+	| Friday, 10/16    | <span class="discussion">Discussion</span>: Reinhard Schwarz and Friedemann Mattern, ["Detecting Causal Relationships in Distributed Computations: In Search of the Holy Grail" (_Distributed Computing_, 1994)](readings/holy-grail.pdf) **(sections 1-3 only)**
 | Monday, 10/19    | <span class="lecture">Lecture</span>: implementing FIFO delivery; implementing causal broadcast
 | Wednesday, 10/21 | <span class="discussion">Discussion</span>: Kenneth Birman, André Schiper, and Pat Stephenson, ["Lightweight Causal and Atomic Group Multicast" (TOCS, 1991)](readings/cbcast.pdf) **(sections 1-5 only)**
 | Friday, 10/23    | <span class="lecture">Lecture</span>: uses of causality in distributed systems; consistent snapshots; Chandy-Lamport snapshot algorithm
 | Monday, 10/26    | <span class="discussion">Discussion</span>: K. Mani Chandy and Leslie Lamport, ["Distributed Snapshots: Determining Global States of Distributed Systems" (TOCS, 1985)](readings/chandy.pdf)
 | Wednesday, 10/28 | <span class="lecture">Lecture</span>: Chandy-Lamport wrap-up: limitations, assumptions, properties; uses of snapshots; centralized vs. decentralized algorithms; recap of delivery guarantees and protocols; safety and liveness
-	| Friday, 10/30    | <span class="discussion">Discussion</span>: Bowen Alpern and Fred B. Schneider, ["Defining liveness" (_Information Processing Letters_, 1985)](readings/liveness.pdf)
+	| Friday, 10/30    | <span class="discussion">Discussion</span>: Bowen Alpern and Fred B. Schneider, ["Defining Liveness" (_Information Processing Letters_, 1985)](readings/liveness.pdf)
 | Monday, 11/2     | <span class="lecture">Lecture</span>: recap of safety and liveness; reliable delivery; fault classification and fault models; two generals problem
 | Wednesday, 11/4  | <span class="discussion">Discussion</span>: Joseph Y. Halpern and Yoram Moses, ["Knowledge and Common Knowledge in a Distributed Environment" (JACM, 1990)](readings/common-knowledge.pdf) **(sections 1-4 only)**
 | Friday, 11/6     | <span class="lecture">Lecture</span>: implementing reliable delivery; idempotence; at-least-once/at-most-once/exactly-once delivery; unicast/broadcast/multicast; reliable broadcast; implementing reliable broadcast; preview of replication
@@ -47,4 +47,4 @@ The course will alternate between <span class="discussion">Discussion</span> and
 	| Monday, 12/7     | <span class="discussion">Discussion</span>: Giuseppe DeCandia et al., ["Dynamo: Amazon’s Highly Available Key-value Store" (SOSP 2007)](readings/amazon-dynamo.pdf)
 | Wednesday, 12/9  | <span class="lecture">Lecture</span>: sharding; consistent hashing
 | Friday, 12/11    | <span class="discussion">Discussion</span>: Ion Stoica et al., ["Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications" (SIGCOMM 2001)](readings/chord.pdf)
-| Wednesday, 12/16 | Video presentations, noon-3pm Pacific time
+| Wednesday, 12/16 | **No final exam.**  Enjoy your winter break!
