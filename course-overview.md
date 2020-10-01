@@ -112,15 +112,15 @@ Each member of each small group must take on one of the following **roles**.  Yo
   
 The small-group discussion should use the following process:
 
-  1. Each member of the small group should **introduce themselves**.  (You may want to turn on your video, although it's not required that you do so.)
-  2. **Assign roles** to each member.
-  3. **Discuss answers to the provided questions about the reading assignment**.  On each discussion day, I'll provide a short list of discussion questions, many of which will be drawn from the reading responses that you submitted previously.  During the discussion phase, feel free to work together in a shared document and use any resources you like.  This is a "brainstorming" phase.  Don't stop with a single answer; look at things from all angles.
-  4. **Reach consensus on the most satisfying answers.**  Perhaps the group will agree on answers that satisfy everyone.  Perhaps there will be significant dissent -- maybe even no majority view.
-  5. **Prepare to report verbally to the class as a whole.**  The ambassador's report should cover the following points:
-    * The preferred answers according to the consensus reached by your group.
-	* The _reasons_ that you prefer these answers.
-	* Any significant minority views.
-	* A few words about answers that your group considered but ultimately rejected.
+1. Each member of the small group should **introduce themselves**.  (You may want to turn on your video, although it's not required that you do so.)
+2. **Assign roles** to each member.
+3. **Discuss answers to the provided questions about the reading assignment**.  On each discussion day, I'll provide a short list of discussion questions, many of which will be drawn from the reading responses that you submitted previously.  During the discussion phase, feel free to work together in a shared document and use any resources you like.  This is a "brainstorming" phase.  Don't stop with a single answer; look at things from all angles.
+4. **Reach consensus on the most satisfying answers.**  Perhaps the group will agree on answers that satisfy everyone.  Perhaps there will be significant dissent -- maybe even no majority view.
+5. **Prepare to report verbally to the class as a whole.**  The ambassador's report should cover the following points:
+   * The preferred answers according to the consensus reached by your group.
+   * The _reasons_ that you prefer these answers.
+   * Any significant minority views.
+   * A few words about answers that your group considered but ultimately rejected.
 	
 ### Large-group discussion (20 minutes)
 
