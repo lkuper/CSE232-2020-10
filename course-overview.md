@@ -23,19 +23,20 @@ Hi, I'm [Lindsey Kuper](https://users.soe.ucsc.edu/~lkuper/)!  (Call me "Lindsey
   - 5-unit graduate seminar course (in this context, "seminar" means a course where we discuss assigned readings and everyone participates actively in the discussion)
   - Satisfies the [breadth requirement](https://www.soe.ucsc.edu/departments/computer-science-and-engineering/graduate/breadth-requirements) in the "Systems and Security" category for the UCSC CSE MS and Ph.D. programs
   - Class meets Mondays, Wednesdays, and Fridays, 9:20-10:25am Pacific time
-  - Course GitHub repo (public; for in-class discussion summaries): <https://github.com/lkuper/CSE232-2020-10/>
+  - Course GitHub repo (public; for class discussion summaries): <https://github.com/lkuper/CSE232-2020-10/>
   - Canvas (for reading responses and grades): <https://canvas.ucsc.edu/courses/36581>
   - Slack (private; for announcements, live chat during lectures, Q&A, communicating with course staff, and socializing): <https://ucsc-cse232.slack.com> (all enrolled and waitlisted students should have received an invitation by email)
   - Course web page (you're soaking in it): <http://composition.al/CSE232-2020-10/>
   
 ## What's this course about?
 
-The theory and practice of distributed systems.  Some of the topics we'll cover are:
+The field of _distributed systems_ studies the design, implementation, and behavior of systems that involve independent components that communicate by passing messages to one another over a network. In addition to the usual challenges of _concurrency_, distributed systems may be characterized by unbounded _latency_ between components and independent _failure_ of components, making them challenging to reason about and debug.
+
+Some of the foundational distributed systems concepts we'll explore in this course are:
 
   * **Time and asynchrony.**  No two computers can reason about each others' perception of time.  What does it mean to talk about time when we don't share a clock?
-  * **Fault tolerance and replication.**  Given that computers crash and messages lost, how can we write protocols and algorithms that have adequate redundancy to tolerate failure?  Maybe if I think a computer will crash, it's a good idea to run the same computation on more than one!  Maybe if I think messages will be lost, I should send the same message more than once!
-  * **Consistency and consensus.**  Is our system storing the right data and providing the right responses?  I might have two "replicas" that aren't actually replicas!  If replicas disagree, how do we know which one is right?  Or is it better to try to prevent them from disagreeing in the first place?
-  * **Data partitioning.**  If I have more data than can fit on one machine, how do I decide what to put where?
+  * **Fault tolerance and replication.**  Given that computers crash and messages get lost, how can we write protocols and algorithms that have adequate redundancy to tolerate failure?  Maybe if I think a computer will crash, it's a good idea to run the same computation on more than one computer!  Maybe if I think messages will be lost, I should send the same message more than once!
+  * **Consistency and consensus.**  Is our system storing the right data and providing the right responses?  I might have two "replicas" that aren't actually replicas!  If replicas disagree, how do we know which one is right?  Or is it better to try to ensure that they agree in the first place?
   
 The [schedule](schedule.md) has more details!
 
@@ -45,11 +46,11 @@ The [schedule](schedule.md) has more details!
   - Get a sense of the history of the field of distributed systems.
   - Become more comfortable with reading research papers, especially distributed systems papers.
   - Hone your technical writing and speaking skills.
-  - Become familiar with GitHub features such as wikis, issues, etc., if you aren't already.
+  - Become comfortable with using GitHub features such as wikis, issues, etc., if you aren't already.
   
-All of these skills will serve you well in the future, whether in industry or in academia.
+All of these skills will serve you well in your future career, whether in industry or in academia.
   
-## Logistics
+## What will this course be like?
 
 CSE232 will be a combination lecture and seminar course.  We will be reading and discussing papers from the distributed systems research literature, interleaved with lectures to give you the necessary background to get the most out of the papers. We'll alternate between lecture days and discussion days.  On discussion days, you'll come to class having read and responded to a reading assignment, and you'll spend 30 minutes of in a small group of 3-4 students in a Zoom breakout room, discussing specific questions about the reading.  In these small-group discussions, each student will play a designated role of *ambassador*, *manager*, or *scribe* (discussed in further detail below).  Each student will play each role several times throughout the term.
 
@@ -102,21 +103,21 @@ On discussion days, we'll use a structured in-class discussion process.  The pro
 
 ### Small-group discussion (30 minutes)
 
-At the start of each class, after at most 5 minutes for announcements, the class will split into small groups of 3-4 students for 30 minutes, using Zoom breakout rooms.  (Unfortunately, this means that you cannot use the Zoom web client, since at the time of this writing, the web client doesn't support the breakout room feature.)
+At the start of each discussion day, after at most 5 minutes for announcements, the class will split into small groups of 3-4 students for 30 minutes, using Zoom breakout rooms.  (Unfortunately, this means that you cannot use the Zoom web client, since at the time of this writing, the web client doesn't support the breakout room feature.)
 
 Each member of each small group must take on one of the following **roles**.  You must carry out this role in addition to actively participating in the conversation.  Each student in the class should serve in each of the roles **four or more times** during the term.
 
   * **Scribe**: The role of the scribe is to take notes during the conversation, while participating in the conversation themselves.  After class, all the scribes will meet and contribute to a formal write-up of the class discussion on the course's public GitHub wiki.  One student in each small group will serve as the scribe.
-  * **Manager**: The role of the manager is to keep track of time, and make sure that all of the discussion questions get touched upon.  One or two students in each small group will serve as the manager.
-  * **Ambassador**: The role of the ambassador is to represent their small group in the large-group discussion afterward.  They will also be the first ones to answer follow up questions from the rest of the class, or to pose questions to the rest of the class that would be helpful to discuss. Then, they will meet with the instructors before the end of the class to go over the "meta" of the class, and discuss how workload, group pacing, and other housekeeping items went.
+  * **Manager**: The role of the manager is to keep track of time and make sure that all of the discussion questions get touched upon.  One or two students in each small group will serve as the manager.
+  * **Ambassador**: The role of the ambassador is to represent their small group in the large-group discussion afterward.  They will also be the first ones to answer follow-up questions from the rest of the class, or to pose questions to the rest of the class that would be helpful to discuss. Then, they will meet with the instructors before the end of the class to go over the "meta" of the class, and discuss how workload, group pacing, and other housekeeping items went.
   
-The small-group discussion should use the following process:
+The small-group discussion will use the following process:
 
-1. Each member of the small group should **introduce themselves**.  (You may want to turn on your video, although it's not required that you do so.)
-2. **Assign roles** to each member.
-3. **Discuss answers to the provided questions about the reading assignment**.  On each discussion day, I'll provide a short list of discussion questions, many of which will be drawn from the reading responses that you submitted previously.  During the discussion phase, feel free to work together in a shared document and use any resources you like.  This is a "brainstorming" phase.  Don't stop with a single answer; look at things from all angles.
-4. **Reach consensus on the most satisfying answers.**  Perhaps the group will agree on answers that satisfy everyone.  Perhaps there will be significant dissent -- maybe even no majority view.
-5. **Prepare to report verbally to the class as a whole.**  The ambassador's report should cover the following points:
+1. Each member of the group should unmute and **introduce themselves**.  (You may want to turn on your video for the small-group discussion, although it's not required that you do so.)
+2. The group should **assign roles** to each member.
+3. The group should **discuss answers to the provided questions about the reading assignment**.  On each discussion day, I'll provide a short list of discussion questions, many of which will be drawn from the reading responses that you and your classmates submitted previously.  During the discussion phase, feel free to work together in a shared document and use any resources you like.  This is a "brainstorming" phase.  Don't stop with a single answer; look at things from all angles.
+4. The group should try to **reach consensus on the most satisfying answers**.  Perhaps the group will agree on answers that satisfy everyone.  Perhaps there will be significant dissent -- maybe even no majority view.
+5. The group should **prepare to report verbally to the class as a whole**.  The ambassador's report should cover the following points:
    * The preferred answers according to the consensus reached by your group.
    * The _reasons_ that you prefer these answers.
    * Any significant minority views.
@@ -132,9 +133,9 @@ In the large-group discussion, we'll discuss and evaluate the groups' conclusion
 
 During the last ten minutes of class:
 
-  * **Ambassadors** will gather in a breakout room with Lindsey and discuss how the how they think the day went, how they think the pacing went, what they are looking forward to, any worries they might have about the class, and so on.
-  * **Managers** will update the role spreadsheet to list the role that each member of the class played.  They will then create an [issue on the course GitHub repository](https://github.com/lkuper/CSE232-2020-10/issues) for Lindsey to follow up on the scribes' discussion summary once it is complete, @-mention all the scribes in the issue description, and assign the issue to Lindsey.
-  * **Scribes** will gather to start their write-up of the class discussion on the [course GitHub wiki](https://github.com/lkuper/CSE232-2020-10/wiki), to be finished by at most a week from the day the in-class discussion took place.  You may update the wiki either through the web interface, or by [cloning the wiki locally](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/adding-or-editing-wiki-pages#adding-or-editing-wiki-pages-locally).  I recommend doing the latter, especially if you're not particularly familiar with using git or GitHub, since it's a good idea to become comfortable with these tools.
+  * **Ambassadors** will gather in a breakout room with Lindsey and discuss how they think the day went, how they think the pacing went, what they are looking forward to, any worries they might have about the class, and so on.
+  * **Managers** will update the _role spreadsheet_ (link to be distributed privately) to list the role that each member of their small group played.  They will then create an [issue on the course GitHub repository](https://github.com/lkuper/CSE232-2020-10/issues) for Lindsey to follow up on the scribes' class discussion summary once it is complete, @-mention all the scribes in the issue description, and assign the issue to Lindsey.
+  * **Scribes** will gather to start writing a _class discussion summary_ on the [course GitHub wiki](https://github.com/lkuper/CSE232-2020-10/wiki), to be finished by at most a week from the day the in-class discussion took place.  You may update the wiki either through the web interface, or by [cloning the wiki locally](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/adding-or-editing-wiki-pages#adding-or-editing-wiki-pages-locally).  I recommend doing the latter, especially if you're not particularly familiar with using git or GitHub, since it's a good idea to become comfortable with these tools.
   
 ## Grading
 
@@ -150,11 +151,11 @@ Your grade in this course will be based 50% on your participation in the course 
 
 In addition to standard expectations like "attend class" and "never plagiarize", I have the following expectations of all students who take this course. (This list of expectations is based on those used by [David Evans](http://www.cs.virginia.edu/~evans/) in his courses at the University of Virginia.)
 
-  * **I will do what I can to help my fellow classmates learn.**  This means that when other students ask me for help understanding a concept or carrying out a task, I will attempt to provide it.  I will help them improve their work by looking at it and discussing what I think is good or bad about it, but will never do any part of their work for them.  I will try to teach them what they need to know to successfully carry out the work themselves.
+  * **I will do what I can to help my fellow classmates learn.**  This means that when other students ask me for help understanding a concept or carrying out a task, I will attempt to provide help.  I may help by talking with them, asking questions about what they have tried so far, and discussing what I think is good or bad about it, but not by doing any part of their work for them.  I will try to teach them what they need to know to successfully carry out the work themselves.
 
   * **I will ask for help.** I will make a reasonable effort to do things on my own first, but will ask my classmates or the instructor for help before getting too frustrated. There are many ways to ask for help, including office hours and Slack.
 
-  * **I will provide useful feedback.**  I realize that I have a crucial role to play in helping the instructor to improve the course. I will not wait until the end of the course to make the instrctor aware of any problems.  I will give feedback when asked, and I will fill out all requested surveys honestly and thoroughly.
+  * **I will provide useful feedback.**  I realize that I have a crucial role to play in helping the instructor to improve the course. I will not wait until the end of the course to make the instrctor aware of any problems.  I will give feedback when requested, and I will fill out course surveys and evaluations honestly and thoroughly.
 
 ## A note on accessibility
 
