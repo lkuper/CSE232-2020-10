@@ -4,8 +4,8 @@ layout: splash
 ---
 
 <style type="text/css">
-span.discussion { color: lemonchiffon; font-weight: bold }
-span.lecture { color: lightblue; font-weight: bold }
+span.discussion { color: darkmagenta; font-weight: bold }
+span.lecture { color: darkslateblue; font-weight: bold }
 </style>
 
 ## Schedule of topics and readings
@@ -17,7 +17,7 @@ The course will alternate between <span class="discussion">Discussion</span> and
 | Date             | Topic                                          | Notes
 |------------------|------------------------------------------------|------------------------------------------------------------------------------------------------------------
 | Friday, 10/2     | [Course overview](course-overview.html)        | 
-| Monday, 10/5     | <span class="lecture">Lecture</span>: distributed systems: what and why?; time and clocks; Lamport diagrams
+| Monday, 10/5     | <span class="lecture">Lecture</span>: distributed systems: what and why?; time and clocks; Lamport diagrams | Start-of-course survey due by start of class today
 | Wednesday, 10/7  | <span class="discussion">Discussion</span>: Jim Waldo et al., ["A Note on Distributed Computing" (1994)](readings/note-distributed-computing.pdf) | Reading response due noon PT on 10/6; scribes' wiki write-up due 11:59:59pm PT on 10/14
 | Friday, 10/9     | <span class="lecture">Lecture</span>: causality and happens-before; network models; state and events; partial orders; total orders; Lamport clocks
 | Monday, 10/12    | <span class="discussion">Discussion</span>: Leslie Lamport, ["Time, Clocks, and the Ordering of Events in a Distributed System" (CACM 1978)](readings/time-clocks.pdf) **(skip the section "Physical Clocks")**  | Reading response due noon PT on 10/11; scribes' wiki write-up due 11:59:59pm PT on 10/19
