@@ -52,9 +52,9 @@ All of these skills will serve you well in your future career, whether in indust
   
 ## What will this course be like?
 
-CSE232 will be a combination lecture and seminar course.  We will be reading and discussing papers from the distributed systems research literature, interleaved with lectures to give you the necessary background to get the most out of the papers. We'll alternate between lecture days and discussion days.  On discussion days, you'll come to class having read and responded to a reading assignment, and you'll spend 30 minutes of in a small group of 3-4 students in a Zoom breakout room, discussing specific questions about the reading.  In these small-group discussions, each student will play a designated role of *ambassador*, *manager*, or *scribe* (discussed in further detail below).  Each student will play each role several times throughout the term.
+CSE232 will be a combination lecture and seminar course.  We will be reading and discussing papers from the distributed systems research literature, interleaved with lectures to give you the necessary background to get the most out of the papers. We'll alternate between lecture days and discussion days.  On discussion days, you'll come to class having read and responded to a reading assignment, and you'll spend 30 minutes of class in a small group of 3-4 students in a Zoom breakout room, discussing specific questions about the reading.  In these small-group discussions, each student will play a designated role of *ambassador*, *manager*, or *scribe* (discussed in further detail below).  Each student will play each role several times throughout the term.
 
-Some people will like this format, while others won't like it at all -- so give some thought to whether it is what you want.  (In particular, if you want to take a course where students take turns giving presentations about papers, that's not what this course will be.)
+Some people will like this format, while others won't like it at all -- so give some thought to whether it is what you want before you commit to taking this course.  (In particular, if you want to take a course where students take turns giving presentations about papers, that's not what this course will be.)
 
 On lecture days, the material we'll cover in CSE232 will be similar to my undergrad distributed systems course, CSE138, although the pace will be faster.  Some of you may find the [CSE138 lecture videos on YouTube](https://www.youtube.com/playlist?list=PLNPUF5QyWU8O0Wd8QDh9KaM1ggsxspJ31) to be a helpful resource.
 
@@ -64,7 +64,7 @@ This course will _not_ have a required programming component.  If you were hopin
 
 ## Reading and responding to research papers
 
-We will spend half our time **reading, responding to, and dicussing research papers**.  Reading research papers is a skill that requires practice, and in this class, we will work on developing that skill.  You will need to finish each reading assignment in advance of the day we discuss it in class.  In fact, you will need to turn in a reading response by noon PT on the day _before_ the day we discuss it.
+We will spend half our time **reading, responding to, and discussing research papers**.  Reading research papers is a skill that requires practice, and in this class, we will work on developing that skill.  You will need to finish each reading assignment in advance of the day we discuss it in class.  In fact, you will need to turn in a reading response by noon PT on the day _before_ the day we discuss it.
 
 ### Some advice on how to read papers
 
