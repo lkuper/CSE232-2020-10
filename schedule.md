@@ -46,5 +46,5 @@ The course will alternate between <span class="discussion">Discussion</span> and
 | Friday, 12/4     | <span class="lecture">Lecture</span>: eventual consistency; strong convergence and strong eventual consistency; intro to application-specific conflict resolution; network partitions; availability; the consistency/availability trade-off; anti-entropy with Merkle trees; gossip; quorum consistency
 | Monday, 12/7     | <span class="discussion">Discussion</span>: Giuseppe DeCandia et al., ["Dynamo: Amazon’s Highly Available Key-value Store" (SOSP 2007)](readings/amazon-dynamo.pdf)  | Reading response due noon PT on 12/6; scribes' wiki write-up due 11:59:59pm PT on 12/14
 | Wednesday, 12/9  | <span class="lecture">Lecture</span>: sharding; consistent hashing
-| Friday, 12/11    | <span class="discussion">Discussion</span>: Ion Stoica et al., ["Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications" (SIGCOMM 2001)](readings/chord.pdf) | Reading response due noon PT on 12/10; scribes' wiki write-up due 11:59:59pm PT on 12/18
+| Friday, 12/11    | End-of-course wrap-up and AMA; overview of Lindsey's research | 
 | Wednesday, 12/16 | **No final exam.**  Enjoy your winter break!
