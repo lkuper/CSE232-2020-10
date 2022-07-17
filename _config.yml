@@ -9,6 +9,8 @@ paginate_path: /page:num/
 
 repository: "lkuper/CSE232-2020-10"
 
+url: "https://decomposition.al"
+
 baseurl: "/CSE232-2020-10"
 
 plugins:

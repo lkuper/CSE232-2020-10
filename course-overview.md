@@ -26,7 +26,7 @@ Hi, I'm [Lindsey Kuper](https://users.soe.ucsc.edu/~lkuper/)!  (Call me "Lindsey
   - Course GitHub repo (public; for class discussion summaries): <https://github.com/lkuper/CSE232-2020-10/>
   - Canvas (for reading responses and grades): <https://canvas.ucsc.edu/courses/36581>
   - Slack (private; for announcements, live chat during lectures, Q&A, communicating with course staff, and socializing): <https://ucsc-cse232.slack.com> (all enrolled and waitlisted students should have received an invitation by email)
-  - Course web page (you're soaking in it): <http://composition.al/CSE232-2020-10/>
+  - Course web page (you're soaking in it): <https://decomposition.al/CSE232-2020-10/>
   
 ## What's this course about?
 
